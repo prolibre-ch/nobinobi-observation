@@ -62,7 +62,7 @@ setup(
     keywords='nobinobi-observation',
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Framework :: Django :: 3.2.7',
+        'Framework :: Django :: 3.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
         'Natural Language :: English',
