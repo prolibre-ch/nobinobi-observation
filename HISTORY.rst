@@ -3,6 +3,11 @@
 History
 -------
 
+0.1.4 (2023-05-25)
+++++++++++++++++++
+
+* 6b7fd8a - Fix error when no staff filled in observation detail display
+
 0.1.3 (2021-12-14)
 ++++++++++++++++++
 

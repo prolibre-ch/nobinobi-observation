@@ -123,7 +123,11 @@
                       data: "staff",
                       name: "staff__first_name, staff__last_name",
                       render: function (row, index, datatable) {
-                          return row.first_name + " " + row.last_name;
+                          if (row == null || row === 'undefined'){
+                            return "{% trans "Empty" %}";
+                          } else {
+                              return row.first_name + " " + row.last_name;
+                          }
                       },
                   },
                   {
@@ -137,8 +141,6 @@
                       data: "_comment_excerpt",
                       name: "_comment_excerpt",
                       render: function (row, index, data) {
-                          console.log(row);
-
                           return row.replace("\n\n", "<br><br>").replace("\n", "<br>");
                       },
                   },
